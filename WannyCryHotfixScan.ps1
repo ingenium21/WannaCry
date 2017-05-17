@@ -1,5 +1,5 @@
-#Version 1.08.00 @KieranWalsh May 2017
-# Computer Talk LTD
+#Version 1.08.00 @ingenium21 May 2017
+# Author: Renato Regalado
 
 # Thanks to https://github.com/TLaborde, and https://www.facebook.com/BlackV for notifying me about missing patches.
 
