@@ -1,5 +1,6 @@
 #Version 1.08.00 @ingenium21 May 2017
-# Author: Renato Regalado
+#Author: Renato Regalado
+# Computer Talk LTD
 
 # Thanks to https://github.com/TLaborde, and https://www.facebook.com/BlackV for notifying me about missing patches.
 
@@ -10,7 +11,7 @@ $Unpatched = @()
 
 $log = Join-Path -Path ([Environment]::GetFolderPath('MyDocuments')) -ChildPath "WannaCry patch state for $($ENV:USERDOMAIN).log"
 
-$Patches = @('KB4012212', 'KB4012213', 'KB4012214', 'KB4012215', 'KB4012216', 'KB4012217', 'KB4012598', 'KB4013429', 'KB4015217', 'KB4015438', 'KB4015549', 'KB4015550', 'KB4015551', 'KB4015552', 'KB4015553', 'KB4016635', 'KB4019215', 'KB4019216', 'KB4019264', 'KB4019472')
+$Patches = @('KB4012212', 'KB4012213', 'KB4012214', 'KB4012215', 'KB4012216', 'KB4012217', 'KB4012598', 'KB4013429', 'KB4015217', 'KB4015438', 'KB4015549', 'KB4015550', 'KB4015551', 'KB4015552', 'KB4015553', 'KB4016635', 'KB4019215', 'KB4019216', 'KB4019264', 'KB4019472', 'KB4022725', 'KB4022726', 'KB4022717', 'KB4022719', 'KB4022722')
 
 $WindowsComputers = (Get-ADComputer -Filter {
     (OperatingSystem  -Like 'Windows*') -and (OperatingSystem -notlike '*Windows 10*')
